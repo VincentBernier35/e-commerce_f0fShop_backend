@@ -1,0 +1,475 @@
+// 20221105181927
+// https://gloireauf0f.herokuapp.com/api/product
+
+[
+  {
+    "id": 1,
+    "product_name": "tasse oclock",
+    "price_without_taxes": 7000,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084069/Full-F0F/mug-oclock_ja9lyr.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 2,
+    "product_name": "arrosoir",
+    "price_without_taxes": 15,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084066/Full-F0F/watering-can_zwxmuh.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 3,
+    "product_name": "grille pain",
+    "price_without_taxes": 30,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084066/Full-F0F/toaster_sdx81n.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 4,
+    "product_name": "canard en plastique",
+    "price_without_taxes": 2,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084063/Full-F0F/plastic-duck_k7hexk.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 5,
+    "product_name": "bouchon sauce",
+    "price_without_taxes": 10,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084063/Full-F0F/sauce-cap_v5ww26.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 6,
+    "product_name": "chapeau",
+    "price_without_taxes": 15,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084059/Full-F0F/hat_sbxuah.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 7,
+    "product_name": "chargeur allume cigare",
+    "price_without_taxes": 10,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084057/Full-F0F/cigarette-lighter-charger_gfeind.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 8,
+    "product_name": "masque chirurgical",
+    "price_without_taxes": 2,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084065/Full-F0F/surgical-mask_vcwfdr.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 9,
+    "product_name": "petit briquet",
+    "price_without_taxes": 3,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084064/Full-F0F/small-lighter_plwdko.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 10,
+    "product_name": "casquette",
+    "price_without_taxes": 15,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084056/Full-F0F/cap_rr7kim.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 11,
+    "product_name": "motocross",
+    "price_without_taxes": 1300,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/motocross_pfi0sv.png",
+    "prod_category_name": "category 1",
+    "review_id": 1,
+    "category_id": 1
+  },
+  {
+    "id": 12,
+    "product_name": "mclaren",
+    "price_without_taxes": 9999,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/mclaren_fw8y3n.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 13,
+    "product_name": "meuble",
+    "price_without_taxes": 3500,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084059/Full-F0F/furniture_xlojwu.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 14,
+    "product_name": "casque de velo",
+    "price_without_taxes": 30,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084056/Full-F0F/bicycle-helmet_wjktqd.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 15,
+    "product_name": "velo",
+    "price_without_taxes": 190,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084056/Full-F0F/bike_ifnazm.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 16,
+    "product_name": "cafetière",
+    "price_without_taxes": 50,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084057/Full-F0F/coffe-maker_fvscdt.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 17,
+    "product_name": "perçeuse",
+    "price_without_taxes": 50,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084058/Full-F0F/drill_f2qfey.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 18,
+    "product_name": "rolls",
+    "price_without_taxes": 9999,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084064/Full-F0F/rolls_bu44ro.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 19,
+    "product_name": "parrure de lit",
+    "price_without_taxes": 30,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084064/Full-F0F/set-of-bed_qkufkn.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 20,
+    "product_name": "canape",
+    "price_without_taxes": 150,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084065/Full-F0F/sofa_quedde.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 21,
+    "product_name": "fauteuil",
+    "price_without_taxes": 100,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084064/Full-F0F/seat_kyp5oc.png",
+    "prod_category_name": "category 2",
+    "review_id": 2,
+    "category_id": 2
+  },
+  {
+    "id": 22,
+    "product_name": "cuisine",
+    "price_without_taxes": 4500,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084060/Full-F0F/kitchen_ap8hwl.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 23,
+    "product_name": "draisienne",
+    "price_without_taxes": 80,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084060/Full-F0F/kid-bike_hbsho3.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 24,
+    "product_name": "stylo",
+    "price_without_taxes": 3,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/pen_vzfbxi.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 26,
+    "product_name": "jackpot de toilette",
+    "price_without_taxes": 20,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084066/Full-F0F/toilet-jackpot_fgjicl.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 27,
+    "product_name": "raquette ping-pong",
+    "price_without_taxes": 13,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084063/Full-F0F/ping-pong_j7sikm.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 28,
+    "product_name": "pac-man",
+    "price_without_taxes": 15,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/pac-man_osdg0a.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 29,
+    "product_name": "bottes",
+    "price_without_taxes": 10,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/open-boots_rz2zfw.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 30,
+    "product_name": "lama",
+    "price_without_taxes": 5,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/lama_gtukxe.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 31,
+    "product_name": "mini souffleur",
+    "price_without_taxes": 4,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/mini-blower_zvkqt3.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 32,
+    "product_name": "mini seche cheveux",
+    "price_without_taxes": 7,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/mini-hair-dryer_c1edvv.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 33,
+    "product_name": "merkel",
+    "price_without_taxes": 2,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084060/Full-F0F/merkel_vxx8xr.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 34,
+    "product_name": "oeuf drole",
+    "price_without_taxes": 5,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084059/Full-F0F/fun-egg_kouwk1.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 35,
+    "product_name": "hammac de pied",
+    "price_without_taxes": 5,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084058/Full-F0F/foot-hammock_fuho8k.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 36,
+    "product_name": "tire bouchon",
+    "price_without_taxes": 4,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084058/Full-F0F/corkscrew_kvdjgc.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 37,
+    "product_name": "dent pour chien",
+    "price_without_taxes": 3,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084057/Full-F0F/dog-teeth_ip4zha.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 38,
+    "product_name": "poignet pour biere",
+    "price_without_taxes": 3,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084056/Full-F0F/beer-rack_fo0tc0.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 39,
+    "product_name": "biberon vodka",
+    "price_without_taxes": 7,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084056/Full-F0F/baby-vodka_y4zcer.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 40,
+    "product_name": "tabouret",
+    "price_without_taxes": 50,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084064/Full-F0F/stool_pqlgim.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 41,
+    "product_name": "tasse oiseaux",
+    "price_without_taxes": 15,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084056/Full-F0F/bird-mug_fvehoy.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 42,
+    "product_name": "cristaux",
+    "price_without_taxes": 10,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084059/Full-F0F/cristal_ieccot.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 43,
+    "product_name": "briquet",
+    "price_without_taxes": 4,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084059/Full-F0F/lighter_hbbwur.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 44,
+    "product_name": "tasse",
+    "price_without_taxes": 10,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084062/Full-F0F/mug_xnf57p.png",
+    "prod_category_name": "category 4",
+    "review_id": 4,
+    "category_id": 4
+  },
+  {
+    "id": 45,
+    "product_name": "trump de toilette",
+    "price_without_taxes": 3,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084066/Full-F0F/toilet-trump_bjiyow.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 46,
+    "product_name": "jouet dinde",
+    "price_without_taxes": 4,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084065/Full-F0F/screaming-turkey_uufppj.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 47,
+    "product_name": "bec canard pour chien",
+    "price_without_taxes": 3,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084058/Full-F0F/duck-face_f3hqlb.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  },
+  {
+    "id": 48,
+    "product_name": "savon main",
+    "price_without_taxes": 10,
+    "product_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_image": "https://res.cloudinary.com/dgw6nef0f/image/upload/v1659084058/Full-F0F/finger-soap_saw5lp.png",
+    "prod_category_name": "category 3",
+    "review_id": 3,
+    "category_id": 3
+  }
+]
