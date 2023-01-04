@@ -1,5 +1,8 @@
 # Graduation project (fullstack javascript developer)
 
+The overall project is to create a secure e-commerce API
+as well as an independent app which is a front client consuming this API. This repo is the API app.
+
 ## For this project we were a team of 4 people
 
 - 2 for the frontend (Alain TRECHE and David SEGURA)
