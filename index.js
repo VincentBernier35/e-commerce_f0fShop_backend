@@ -45,7 +45,7 @@ app.get("/", (req, res) => res.send("Welcome to e-F0F REST API !"));
 
 
 // lancement du serveur
-const PORT = process.env.PORT ?? 3000;
+const PORT = process.env.PORT ?? 3500;
 app.listen(PORT, () => {
   console.log(`\x1b[1;33m\u26a1Running server on : http://localhost:${PORT} \u26a1\x1b[0m`);
 });
